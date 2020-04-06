@@ -1,0 +1,16 @@
+{
+  "name": "spotify-tailwind-css",
+  "version": "1.0.0",
+  "description": "Rebuilding de Spotify en TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss assets/css/tailwind.css -o public/css/styles.css"
+  },
+  "author": "Bryan Silva",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
